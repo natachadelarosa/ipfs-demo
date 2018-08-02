@@ -8,7 +8,7 @@ contract SimpleStorage {
     ipfsHash = h;
   }
 
-  function getHash(string h) public view returns (string) {
+  function getHash() public view returns (string) {
     return ipfsHash;
   }
 
